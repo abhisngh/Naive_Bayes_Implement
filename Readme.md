@@ -4,8 +4,6 @@ They are probabilistic, which means that they calculate the probability of each 
 The way they get these probabilities is by using Bayes’ Theorem, which describes the probability of a feature, based on prior knowledge of conditions that might be related to that feature.
 Bayes’ Theorem is useful when working with conditional probabilities (like we are doing here), because it provides us with a way to reverse them:
                   P(A|B)=(P(B|A)*P(A))/P(B)
-# Decision Tree
-This project was pure testing of classification techniques. One easy datasets used are that is Iris dataset.
 
 # Dataset
 This data sets consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) petal and sepal length, stored in a 150x4 numpy.ndarray The rows being the samples and the columns being: Sepal Length, Sepal Width, Petal Length and Petal Width.
